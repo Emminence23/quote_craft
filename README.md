@@ -13,7 +13,7 @@ Project Structure
 └─── Part 2 : (Further Improvements)
 │   │   
 │   └─── Bayesian Hyperparameter Tuning using Optuna
-│   └─── Paper Trading using Alpaca API
+│   └─── (future) Paper Trading using Alpaca API
 ```
 
 ## Part 1
@@ -140,7 +140,7 @@ Potential Improvements :
 
 - One could use local search on the initial guess given by the previous iterations, with [Optuna's GPS Sampler](https://optuna.readthedocs.io/en/stable/reference/samplers/generated/optuna.samplers.GPSampler.html)
  
-### Paper Trading on Alpaca : 
+### Paper Trading on Alpaca : (Future)
 
 - Alpaca does not allow one to have a negative position in some instruments, including Bitcoin. This would not let us do Market Making as we want to.
 
