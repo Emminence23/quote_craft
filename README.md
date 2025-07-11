@@ -127,8 +127,9 @@ Hyperparameters we're interested in, and their typical ranges :
 - `inventory_cap`   continuous values in $(0,\infty)$
 
 Score :
-
-$$score = \frac{final\_pnl}{std\_dev(pnl[t] - max\_theo[t]) \cdot std\_dev(Inv\_vol)}$$
+```math
+score = \frac{final\_pnl}{std\_dev(pnl[t] - max\_theo[t]) \cdot std\_dev(Inv\_vol)}
+```
 
 (The Metric which optuna maximizes)
 
